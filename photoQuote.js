@@ -31,5 +31,5 @@ function randomImg(){
 
     $('html').css({'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')'});
     $('html').css({'background-size': 'cover'});
-
+//Test
 };
