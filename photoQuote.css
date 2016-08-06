@@ -1,39 +1,41 @@
-body {
-    overflow:hidden;
-}
 
 html {
-    background:url('photos/backImg-6.jpg') no-repeat center center fixed;
-    background-size:cover;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #quoteDiv {
- height: 40%;
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  color: #FFFFFF;
-  text-align: center;
-  text-shadow: 4px 4px 12px #8c9496;
+    height: 40%;
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 4px 4px 12px #8c9496;
 }
 
 #quoteText {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    margin: auto;
+    display: inline-block;
+    max-width: 90%;
     border-radius: 5px;
     font-family: 'Cormorant SC', serif;
-    font-size: 3em;
-
+    font-size: 6vh;
 }
 
 #quoteAuthor {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 25%;
-    margin: auto;
+    display: inline-flex;
+    float: right;
+    margin: 30px 0 0 0;
+    padding: 0 10px 0 10px;
     font-family: 'Homemade Apple', cursive;
     border-radius: 5px;
-    font-size:2em;
+    font-size:3.5vh;
 }
 
 #buttonWrapper {
@@ -43,8 +45,6 @@ html {
 }
 
 #quoteButton {
-    height: 60px;
-    width: 15%;
     display: inline-block;
     font-family: 'Galada', cursive;
     font-size: 26px;
@@ -55,26 +55,35 @@ html {
     animation: glowing 3500ms infinite;
 }
 
+.responsiveImg {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/************************** Webkit Button Glow CSS **********************************/
 @-webkit-keyframes glowing {
-  0% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 6px #FFFFFF; }
-  50% { background-color: #faea82; -webkit-box-shadow: 0 0 60px #faea82; }
-  100% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 6px #FFFFFF; }
+    0% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 6px #FFFFFF; }
+    50% { background-color: #faea82; -webkit-box-shadow: 0 0 60px #faea82; }
+    100% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 6px #FFFFFF; }
 }
 
 @-moz-keyframes glowing {
-  0% { background-color: #FFFFFF; -moz-box-shadow: 0 0 6px #FFFFFF; }
-  50% { background-color: #faea82; -moz-box-shadow: 0 0 60px #faea82; }
-  100% { background-color: #FFFFFF; -moz-box-shadow: 0 0 6px #FFFFFF; }
+    0% { background-color: #FFFFFF; -moz-box-shadow: 0 0 6px #FFFFFF; }
+    50% { background-color: #faea82; -moz-box-shadow: 0 0 60px #faea82; }
+    100% { background-color: #FFFFFF; -moz-box-shadow: 0 0 6px #FFFFFF; }
 }
 
 @-o-keyframes glowing {
-  0% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
-  50% { background-color: #faea82; box-shadow: 0 0 60px #faea82; }
-  100% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
+    0% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
+    50% { background-color: #faea82; box-shadow: 0 0 60px #faea82; }
+    100% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
 }
 
 @keyframes glowing {
-  0% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
-  50% { background-color: #faea82; box-shadow: 0 0 60px #faea82; }
-  100% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
+    0% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
+    50% { background-color: #faea82; box-shadow: 0 0 60px #faea82; }
+    100% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
 }

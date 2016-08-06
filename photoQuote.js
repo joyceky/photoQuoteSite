@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+    randomImg();
     getQuote();
 });
 
@@ -27,8 +28,16 @@ function getQuote() {
 
 function randomImg() {
 
-    var photos = ['backImg-1.jpg', 'backImg-2.jpg', 'backImg-3.jpg', 'backImg-4.jpg', 'backImg-5.jpg', 'backImg-6.jpg', 'backImg-7.jpg', 'backImg-8.jpg', 'backImg-9.jpg', 'backImg-10.jpg', 'backImg-11.jpg', 'backImg-12.jpg', 'backImg-13.jpg', 'backImg-14.jpg', 'backImg-15.jpg', 'backImg-16.jpg', 'backImg-17.jpg', 'backImg-18.jpg', 'backImg-19.jpg', 'backImg-20.jpg', 'backImg-21.jpg', 'backImg-22.jpg', 'backImg-23.jpg', 'backImg-24.jpg', 'backImg-25.jpg'];
+    var photos = ['landscape1.jpg', 'landscape2.jpg', 'landscape3.jpg', 'landscape4.jpg', 'landscape5.jpg', 'landscape6.jpg', 'landscape7.jpg', 'landscape8.jpg', 'landscape9.jpg', 'landscape10.jpg', 'landscape11.jpg', 'landscape12.jpg', 'landscape13.jpg', 'landscape14.jpg', 'landscape15.jpg', 'landscape16.jpg', 'landscape17.jpg', 'landscape18.jpg', 'landscape19.jpg', 'landscape20.jpg', 'landscape21.jpg', 'landscape22.jpg', 'landscape23.jpg', 'landscape24.jpg', 'landscape25.jpg'];
+
+    var responsiveImg = { 
+
+        'background-size': 'cover', 
+        'background-repeat': 'no-repeat', 
+        'background-attachment': 'fixed'
+    }; 
 
     $('html').css({ 'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')' });
-    $('html').css({ 'background-size': 'cover' });
+    $('html').css(responsiveImg);
+
 };
