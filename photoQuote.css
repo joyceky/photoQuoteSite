@@ -1,0 +1,51 @@
+body {
+    overflow:hidden;
+}
+
+html {
+background:url('photos/backImg-6.jpg') no-repeat center center fixed;
+background-size:cover;
+}
+
+#quoteDiv {
+  position: absolute;
+  top: 60px;
+  margin: auto;
+  color: #FFFFFF;
+  font-family: 'David Libre', serif;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 4px 4px 12px rgba(78, 80, 87, 1);
+}
+
+#quoteButton {
+    border-radius: 5px;
+      -webkit-animation: glowing 3500ms infinite;
+  -moz-animation: glowing 3500ms infinite;
+  -o-animation: glowing 3500ms infinite;
+  animation: glowing 3500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #cccccc; -webkit-box-shadow: 0 0 6px #cccccc; }
+  50% { background-color: #f7f7f7; -webkit-box-shadow: 0 0 60px #f7f7f7; }
+  100% { background-color: #cccccc; -webkit-box-shadow: 0 0 6px #cccccc; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #cccccc; -moz-box-shadow: 0 0 6px #cccccc; }
+  50% { background-color: #f7f7f7; -moz-box-shadow: 0 0 60px #f7f7f7; }
+  100% { background-color: #cccccc; -moz-box-shadow: 0 0 6px #cccccc; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
+  50% { background-color: #f7f7f7; box-shadow: 0 0 60px #f7f7f7; }
+  100% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
+}
+
+@keyframes glowing {
+  0% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
+  50% { background-color: #f7f7f7; box-shadow: 0 0 60px #f7f7f7; }
+  100% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
+}
