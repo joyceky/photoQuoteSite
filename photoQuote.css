@@ -3,8 +3,8 @@ body {
 }
 
 html {
-background:url('photos/backImg-6.jpg') no-repeat center center fixed;
-background-size:cover;
+    background:url('photos/backImg-6.jpg') no-repeat center center fixed;
+    background-size:cover;
 }
 
 #quoteDiv {
@@ -13,40 +13,68 @@ background-size:cover;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   color: #FFFFFF;
-  font-family: 'David Libre', serif;
-  font-size: 2em;
   text-align: center;
-  text-shadow: 4px 4px 12px rgba(78, 80, 87, 1);
+  text-shadow: 4px 4px 12px #8c9496;
+}
+
+#quoteText {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 3em;
+
+}
+
+#quoteAuthor {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 25%;
+    margin: auto;
+    font-family: 'Homemade Apple', cursive;
+    border-radius: 5px;
+    font-size:2em;
+}
+
+#buttonWrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
 }
 
 #quoteButton {
-    border-radius: 5px;
-      -webkit-animation: glowing 3500ms infinite;
-  -moz-animation: glowing 3500ms infinite;
-  -o-animation: glowing 3500ms infinite;
-  animation: glowing 3500ms infinite;
+    height: 60px;
+    width: 15%;
+    display: inline-block;
+    font-family: 'Galada', cursive;
+    font-size: 26px;
+    border-radius: 15px;
+    -webkit-animation: glowing 3500ms infinite;
+    -moz-animation: glowing 3500ms infinite;
+    -o-animation: glowing 3500ms infinite;
+    animation: glowing 3500ms infinite;
 }
 
 @-webkit-keyframes glowing {
-  0% { background-color: #cccccc; -webkit-box-shadow: 0 0 6px #cccccc; }
-  50% { background-color: #f7f7f7; -webkit-box-shadow: 0 0 60px #f7f7f7; }
-  100% { background-color: #cccccc; -webkit-box-shadow: 0 0 6px #cccccc; }
+  0% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 6px #FFFFFF; }
+  50% { background-color: #faea82; -webkit-box-shadow: 0 0 60px #faea82; }
+  100% { background-color: #FFFFFF; -webkit-box-shadow: 0 0 6px #FFFFFF; }
 }
 
 @-moz-keyframes glowing {
-  0% { background-color: #cccccc; -moz-box-shadow: 0 0 6px #cccccc; }
-  50% { background-color: #f7f7f7; -moz-box-shadow: 0 0 60px #f7f7f7; }
-  100% { background-color: #cccccc; -moz-box-shadow: 0 0 6px #cccccc; }
+  0% { background-color: #FFFFFF; -moz-box-shadow: 0 0 6px #FFFFFF; }
+  50% { background-color: #faea82; -moz-box-shadow: 0 0 60px #faea82; }
+  100% { background-color: #FFFFFF; -moz-box-shadow: 0 0 6px #FFFFFF; }
 }
 
 @-o-keyframes glowing {
-  0% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
-  50% { background-color: #f7f7f7; box-shadow: 0 0 60px #f7f7f7; }
-  100% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
+  0% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
+  50% { background-color: #faea82; box-shadow: 0 0 60px #faea82; }
+  100% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
 }
 
 @keyframes glowing {
-  0% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
-  50% { background-color: #f7f7f7; box-shadow: 0 0 60px #f7f7f7; }
-  100% { background-color: #cccccc; box-shadow: 0 0 6px #cccccc; }
+  0% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
+  50% { background-color: #faea82; box-shadow: 0 0 60px #faea82; }
+  100% { background-color: #FFFFFF; box-shadow: 0 0 6px #FFFFFF; }
 }
