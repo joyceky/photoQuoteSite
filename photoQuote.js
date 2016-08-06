@@ -29,6 +29,7 @@ function randomImg(){
 
     var photos = ['backImg-1.jpg', 'backImg-2.jpg', 'backImg-3.jpg', 'backImg-4.jpg', 'backImg-5.jpg', 'backImg-6.jpg'];
 
-    $('#html').css({'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')'});
+    $('html').css({'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')'});
+    $('html').css({'background-size': 'cover'});
 
 };
