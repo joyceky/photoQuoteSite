@@ -38,6 +38,7 @@ function randomImg() {
         'transition': 'all 0.5s ease'
     }; 
 
+    $('html').css(responsiveImg);
     $('html').css({ 'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')' });
     $('html').css(responsiveImg);
 
