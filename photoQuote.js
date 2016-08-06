@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
-    $('html').css(responsiveImg);
     randomImg();
+   $('html').css('transition', 'all 0.5s ease');
     getQuote();
 });
 
@@ -40,7 +40,7 @@ function randomImg() {
     }; 
 
     $('html').css({ 'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')' });
-
+     $('html').css(responsiveImg);
 };
 
 // Begin loading image array when window loads
