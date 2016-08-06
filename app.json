@@ -1,0 +1,6 @@
+{
+  "name": "quote.ography",
+  "description": "A simple webapp to display my photography with famous quotes.",
+  "repository": "https://github.com/joyceky/photoQuoteSite/",
+  "keywords": ["javascript", "jquery", "static", "photography"]
+}
