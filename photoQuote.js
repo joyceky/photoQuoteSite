@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 function getQuote() {
     var request = $.ajax({
-        url: "http://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?",
+        url: "//api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=?",
         dataType: "jsonp"
     });
 
