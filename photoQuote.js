@@ -34,7 +34,8 @@ function randomImg() {
 
         'background-size': 'cover', 
         'background-repeat': 'no-repeat', 
-        'background-attachment': 'fixed'
+        'background-attachment': 'fixed',
+        'transition': 'all 0.5s ease'
     }; 
 
     $('html').css({ 'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')' });
