@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+    $('html').css(responsiveImg);
     randomImg();
     getQuote();
 });
@@ -39,7 +40,6 @@ function randomImg() {
     }; 
 
     $('html').css({ 'background': 'url(photos/' + photos[Math.floor(Math.random() * photos.length)] + ')' });
-    $('html').css(responsiveImg);
 
 };
 
@@ -54,7 +54,6 @@ function preCachePhotos(){
  
 $(window).load(function(){
     preCachePhotos();
-    $('html').css(responsiveImg);
 });
 
 
