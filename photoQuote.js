@@ -54,5 +54,7 @@ function preCachePhotos(){
  
 $(window).load(function(){
     preCachePhotos();
+    $('html').css(responsiveImg);
 });
+
 
