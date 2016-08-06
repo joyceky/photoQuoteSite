@@ -28,7 +28,7 @@ function getQuote() {
 
 function randomImg() {
 
-    var photos = ['landscape1.jpg', 'landscape2.jpg', 'landscape3.jpg', 'landscape4.jpg', 'landscape5.jpg', 'landscape6.jpg', 'landscape7.jpg', 'landscape8.jpg', 'landscape9.jpg', 'landscape10.jpg', 'landscape11.jpg', 'landscape12.jpg', 'landscape13.jpg', 'landscape14.jpg', 'landscape15.jpg', 'landscape16.jpg', 'landscape17.jpg', 'landscape18.jpg', 'landscape19.jpg', 'landscape20.jpg', 'landscape21.jpg', 'landscape22.jpg', 'landscape23.jpg', 'landscape24.jpg', 'landscape25.jpg'];
+    var photos = ['landscape1.jpg', 'landscape2.jpg', 'landscape3.jpg', 'landscape4.jpg', 'landscape5.jpg', 'landscape6.jpg', 'landscape7.jpg', 'landscape8.jpg', 'landscape9.jpg', 'landscape10.jpg', 'landscape11.jpg', 'landscape12.jpg', 'landscape13.jpg', 'landscape14.jpg', 'landscape15.jpg', 'landscape16.jpg', 'landscape17.jpg', 'landscape18.jpg', 'landscape19.jpg', 'landscape20.jpg', 'landscape21.jpg', 'landscape22.jpg', 'landscape23.jpg', 'landscape24.jpg', 'landscape25.jpg', 'landscape26.jpg', 'landscape27.jpg', 'landscape28.jpg', 'landscape29.jpg', 'landscape30.jpg', 'landscape31.jpg', 'landscape32.jpg', 'landscape33.jpg', 'landscape34.jpg', 'landscape35.jpg', 'landscape36.jpg', 'landscape37.jpg'];
 
     var responsiveImg = { 
 
