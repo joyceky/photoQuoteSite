@@ -1,6 +1,7 @@
 # photoQuoteSite
-A simple website to display my photography with quotes from the Forismatic API. 
+A simple website to display my personal photography with quotes from the Forismatic API. 
 
-<a href="https://heroku.com/deploy">
+
+<a href="//quoteography.herokuapp.com/index.html">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
