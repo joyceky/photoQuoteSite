@@ -2,21 +2,29 @@
 <html lang="en">
 
 <head>
+ <!--********************************** Meta Information **********************************-->   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 
     <title>quote.ography</title>
 
+<!--********************************** Stylesheets (Pure.io, Google Fonts, and my own styles.) **********************************-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/pure/0.6.0/pure-min.css">
-    <link rel="stylesheet" href="photoQuote.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Galada|Homemade+Apple|Rakkas|Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="photoQuote.css">
 
+<!--********************************** Scripts (The jQuery library and my own javascript.) **********************************-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="photoQuote.js"></script>
 </head>
 
+<!--********************************** Body **********************************-->
+
 <body>
+<div id="bgPic1">
+<div id="bgPic2">
+
     <div id="buttonWrapper">
         <button class="pure-button" id="quoteButton" onclick="getQuote();randomImg();">quote.ography</button>
     </div>
@@ -27,6 +35,10 @@
         <div id="quoteAuthor"></div>
         <br />
     </div>
-</body>
 
+</div>
+</div>  
+
+</body>
+  
 </html>

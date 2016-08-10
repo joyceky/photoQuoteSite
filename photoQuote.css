@@ -1,11 +1,24 @@
+html,body {
+    height:100%;
+    width:100%;
+} 
 
-html {
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
+#bgPic1,#bgPic2 {
+    display:inline-block;
+    width:100%;
+    top:0px; left:0px; bottom:0px; right:0px;
+    position:fixed;  
+    background-position: center;
+	background-repeat: no-repeat;
     background-attachment: fixed;
-    'transition': 'all 0.5s ease !important'
+	background-size: cover;
+    transition: all 0.5s ease;
+}
+
+#buttonWrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
 }
 
 #quoteDiv {
@@ -26,6 +39,8 @@ html {
     border-radius: 5px;
     font-family: 'Cormorant SC', serif;
     font-size: 6vh;
+    transition: all 0.5s ease;
+
 }
 
 #quoteAuthor {
@@ -37,13 +52,11 @@ html {
     font-family: 'Homemade Apple', cursive;
     border-radius: 5px;
     font-size:3.5vh;
+    transition: all 0.5s ease;
+
 }
 
-#buttonWrapper {
-    width: 100%;
-    text-align: center;
-    margin-top: 60px;
-}
+
 
 #quoteButton {
     display: inline-block;
@@ -54,14 +67,6 @@ html {
     -moz-animation: glowing 3500ms infinite;
     -o-animation: glowing 3500ms infinite;
     animation: glowing 3500ms infinite;
-}
-
-.responsiveImg {
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 /************************** Webkit Button Glow CSS **********************************/
