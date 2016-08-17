@@ -1,31 +1,33 @@
-html,body {
-    height:100%;
-    width:100%;
-} 
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
 
 #bgPic1,#bgPic2 {
-    display:inline-block;
-    width:100%;
-    top:0px; left:0px; bottom:0px; right:0px;
-    position:fixed;  
-    background-position: center;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-	background-size: cover;
-    transition: all 0.5s ease;
+    height:100%;
+    background-position: center center !important;
+    background-repeat: no-repeat !important; 
+    background-attachment: fixed !important;
+    background-size: cover !important;
+
 }
 
 #buttonWrapper {
     width: 100%;
     text-align: center;
-    margin-top: 60px;
 }
 
 #quoteDiv {
     height: 40%;
     width: 85%;
     margin: auto;
-    position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     color: #FFFFFF;
     text-align: center;
@@ -40,7 +42,6 @@ html,body {
     font-family: 'Cormorant SC', serif;
     font-size: 6vh;
     transition: all 0.5s ease;
-
 }
 
 #quoteAuthor {
@@ -53,19 +54,21 @@ html,body {
     border-radius: 5px;
     font-size:3.5vh;
     transition: all 0.5s ease;
-
 }
 
-
-
 #quoteButton {
+    height:50px;
+    min-width:20%;
+    margin-top: 8%;
+    margin-bottom:50px;
     display: inline-block;
+    outline: none !important;
     font-family: 'Galada', cursive;
     font-size: 26px;
     border-radius: 15px;
-    -webkit-animation: glowing 3500ms infinite;
-    -moz-animation: glowing 3500ms infinite;
-    -o-animation: glowing 3500ms infinite;
+    -webkit-animation: glowing 3500ms infinite !important;
+    -moz-animation: glowing 3500ms infinite !important;
+    -o-animation: glowing 3500ms infinite !important;
     animation: glowing 3500ms infinite;
 }
 
